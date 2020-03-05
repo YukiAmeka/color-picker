@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="card w-25 blue-grey lighten-5">
+            <div class="card-body text-center">
+                <div class="card-header">
+                    Slide to change background color
+                </div>
+                <div class="d-flex justify-content-center my-4">
+                    <span class="font-weight-bold mr-2 mt-1">0</span>
+                    <form class="range-field w-100" action="">
+                        <input type="range" class="custom-range red-slider" name="rgb-range" value="127" min="0" max="255">
+                    </form>
+                    <span class="font-weight-bold ml-2 mt-1 red-text">255</span>
+                </div>
+                <div class="d-flex justify-content-center my-4">
+                    <span class="font-weight-bold mr-2 mt-1">0</span>
+                    <form class="range-field w-100" action="">
+                        <input type="range" class="custom-range green-slider" name="rgb-range" value="127" min="0" max="255">
+                    </form>
+                    <span class="font-weight-bold ml-2 mt-1 green-text">255</span>
+                </div>
+                <div class="d-flex justify-content-center my-4">
+                    <span class="font-weight-bold mr-2 mt-1">0</span>
+                    <form class="range-field w-100" action="">
+                        <input type="range" class="custom-range blue-slider" name="rgb-range" value="127" min="0" max="255">
+                    </form>
+                    <span class="font-weight-bold ml-2 mt-1 blue-text">255</span>
+                </div>
+                <div class="card-footer text-muted">
+                    rgb(127,127,127)
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
